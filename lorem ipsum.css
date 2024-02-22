@@ -1,0 +1,101 @@
+.navbar{
+    display:flex;
+    background-color:lightcoral;
+}
+.navbar a{
+    float:left;
+    display:block;
+    color:black;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+
+.navbar ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+.navbar li{
+    float:left;
+}
+.navbar li a{
+    display:block;
+    color:black;
+    text-align:center;
+    padding:22px 24px;
+    text-decoration: none;
+}
+.icon{
+    height:5vh;
+    vertical-align:middle;
+    padding-top:15px;
+}
+.bg-container{
+    background: linear-gradient(to right,  rgb(245, 245, 134),  pink);
+    padding:35px;
+    display:flex;
+    justify-content: space-between;
+    background-size:cover;
+}
+.main-heading{
+    font-family: "Roboto";
+    font-style:normal;
+    font-size:bold;
+}
+.content{
+    font-family:"Roboto";
+    font-style:normal;
+    font-size:20px ;
+    color:black;
+    margin-top:55px;
+    flex:1;
+}
+.clickme-button{
+    background-color:lightcoral;
+    color:white;
+    border:none;
+    cursor:text;
+    font-family:"Roboto";
+    border-radius:0;
+    width:180px;
+    height:40px;
+}
+.robin-stickel-image{
+   width:40vw;
+   background-size:cover;
+   
+}
+
+.footer{
+    margin-top:10px;
+    display:flex;
+    flex-wrap:wrap;
+    padding-top:65px;
+    justify-content:space-between;
+    background:linear-gradient(to right,  rgb(245, 245, 134),  pink);;
+}
+.image-rachel{
+    width: 28vw;
+    padding-left:50px;
+}
+.image-eva{
+    width: 38vw;
+    margin:none;
+}
+.image-mister{
+    width:30vw;
+    padding:15px;
+}
+.set-ademir-container{
+    background-color:lightcoral;
+    padding:15px;
+    margin-left:auto;
+    width:50vw;
+}
+.arrow-icon{
+    height:3vh;
+    font-size:1em;
+    vertical-align:middle;
+}
